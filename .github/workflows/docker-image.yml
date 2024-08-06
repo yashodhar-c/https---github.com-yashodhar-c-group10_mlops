@@ -33,7 +33,7 @@ jobs:
 
     - name: Run Docker container
       run: |
-        docker run -d -p 5000:5000 --name flask_docker ${{ vars.DOCKER_USERNAME }}/flash_docker:latest
+        docker run -d -p 5000:5000 --name flask_docker ${{ vars.DOCKER_USERNAME }}/flask_docker:latest
 
     - name: Wait for the flask app to start
       run: sleep 25
