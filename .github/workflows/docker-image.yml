@@ -43,4 +43,4 @@ jobs:
 
     - name: Test the flask app
       run: |
-        curl -X POST -H "Content-Type: application/json" -d '{ "age": 27,"bmi": 22.5,"children": 2,"sex": 1,"smoker": 0,"region": 3}' http://127.0.0.1:5000/predict      
+        curl -X POST -H "Content-Type: application/json" -d '{ "age": 27,"bmi": 22.5,"children": 2,"sex": 1,"smoker": 0,"region": 3}' http://0.0.0.0:5000/predict      
