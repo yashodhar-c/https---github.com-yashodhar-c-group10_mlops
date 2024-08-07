@@ -1,4 +1,4 @@
 joblib
 flask
-numpy==1.24.0
+numpy
 scikit-learn
